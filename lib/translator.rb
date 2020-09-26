@@ -15,7 +15,7 @@ end
   
   
   # code goes here
-end
+
 
 def get_japanese_emoticon
     emoticons = YAML.load_file(path)

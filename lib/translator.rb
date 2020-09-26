@@ -6,7 +6,7 @@ def load_library
   emoticon_hash = ["take_emoticon"] = {}
   emoticon_hash = {"take_meaning"] = {}
   
-  
+  emoticons.each 
   
   
   

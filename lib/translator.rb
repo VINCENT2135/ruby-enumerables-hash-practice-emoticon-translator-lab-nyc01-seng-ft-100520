@@ -21,7 +21,8 @@ end
 
 def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
   
-  emoticon_hash.each
+  emoticon_hash.each do |key, value|
+  end
 end
 
 def get_english_meaning("./lib/emoticons.yml",emoticon)

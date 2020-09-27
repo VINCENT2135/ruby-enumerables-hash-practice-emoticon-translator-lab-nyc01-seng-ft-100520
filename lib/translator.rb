@@ -20,8 +20,8 @@ end
 
 
 def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
-  emoticon_hash
-  # code goes here
+  
+  emoticon_hash.each
 end
 
 def get_english_meaning("./lib/emoticons.yml",emoticon)

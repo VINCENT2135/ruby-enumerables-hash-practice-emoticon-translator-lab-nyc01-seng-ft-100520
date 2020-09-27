@@ -2,7 +2,7 @@ require "yaml"
 # require modules here
 
 def load_library
-   emoticons = YAML.load_file("emoticons.yml")
+   emoticons = YAML.load_file("./lib/emoticons.yml")
 
    emoticon_hash  = {}
    emoticons.each do |key,value|
@@ -19,7 +19,7 @@ end
   # code goes here
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon ("./lib/emoticons.yml")
   emoticon_hash
   # code goes here
 end

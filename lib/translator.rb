@@ -1,7 +1,7 @@
 require "yaml"
 # require modules here
 
-def load_library (path)
+def load_library (emoticon_hash)
    emoticons = YAML.load_file(path)
 
    emoticon_hash  = {}
@@ -20,7 +20,7 @@ end
 
 
 def get_japanese_emoticon (emoticon_hash,emoticon)
-   emoticon_lib = load_library(emoticon_file)
+   emoticon_hash = load_library(emoticon_file)
     emoticon_hash.each do |key,value|
     if value[:japanese] == emoticon 
        return key

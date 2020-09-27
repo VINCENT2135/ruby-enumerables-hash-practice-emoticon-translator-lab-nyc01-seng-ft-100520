@@ -20,12 +20,20 @@ end
 
 
 def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
-  
-  emoticon_hash.each do |key, value|
+    emoticon_hash.each do |key,value|
+    if value[:japanese] == emoticon 
+       return key
+    end
   end
-end
+end 
+ 
 
 def get_english_meaning("./lib/emoticons.yml",emoticon)
   # code goes here
+    emoticon_hash.each do |key,value|
+    if value[:english] == emoticon 
+       return key
+    end
+  end
   
 end

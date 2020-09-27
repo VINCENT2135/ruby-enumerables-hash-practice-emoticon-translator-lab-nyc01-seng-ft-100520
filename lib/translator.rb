@@ -19,12 +19,12 @@ end
   # code goes here
 
 
-def get_japanese_emoticon ("./lib/emoticons.yml")
+def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
   emoticon_hash
   # code goes here
 end
 
-def get_english_meaning
-    emoticons = YAML.load_file(path)
+def get_english_meaning("./lib/emoticons.yml",emoticon)
   # code goes here
+  
 end

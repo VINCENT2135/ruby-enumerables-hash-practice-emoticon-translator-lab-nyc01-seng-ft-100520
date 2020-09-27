@@ -19,7 +19,7 @@ end
   # code goes here
 
 
-def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
+def get_japanese_emoticon (emoticon)
     emoticon_hash.each do |key,value|
     if value[:japanese] == emoticon 
        return key
@@ -28,7 +28,7 @@ def get_japanese_emoticon ("./lib/emoticons.yml",emoticon)
 end 
  
 
-def get_english_meaning("./lib/emoticons.yml",emoticon)
+def get_english_meaning(emoticon)
   # code goes here
     emoticon_hash.each do |key,value|
     if value[:english] == emoticon 

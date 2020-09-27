@@ -14,10 +14,6 @@ def load_library (emoticon_hash)
   emoticon_hash
 end
   
-  
-  
-  # code goes here
-
 
 def get_japanese_emoticon (emoticon_hash, emoticon)
    # code goes here

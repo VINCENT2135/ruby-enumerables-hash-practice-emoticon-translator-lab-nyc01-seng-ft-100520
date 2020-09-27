@@ -28,7 +28,7 @@ def get_japanese_emoticon (emoticon_hash,emoticon)
 end 
  
 
-def get_english_meaning(path,emoticon)
+def get_english_meaning(emoticon_hash,emoticon)
   # code goes here
     emoticon_hash.each do |key,value|
     if value[:english] == emoticon 

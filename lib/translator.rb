@@ -26,6 +26,7 @@ def get_japanese_emoticon (emoticon_hash,emoticon)
        return key
     end
   end
+  "Sorry, that emoticon was not found"
 end 
  
 
@@ -37,5 +38,5 @@ def get_english_meaning(emoticon_hash,emoticon)
        return key
     end
   end
-  
+   "Sorry, that emoticon was not found"
 end

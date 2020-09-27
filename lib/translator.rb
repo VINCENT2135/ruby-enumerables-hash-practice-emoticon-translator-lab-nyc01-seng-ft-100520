@@ -23,7 +23,7 @@ def get_japanese_emoticon (emoticon_hash,emoticon)
    # code goes here
     emoticon_hash = load_library("./lib/emoticons.yml")
     emoticon_hash.each do |key,value|
-    if value[:japanese] == emoticon 
+    if value["english"] == emoticon 
        return key
     end
   end

@@ -19,7 +19,7 @@ end
   # code goes here
 
 
-def get_japanese_emoticon (path,emoticon)
+def get_japanese_emoticon (emoticon_hash,emoticon)
     emoticon_hash.each do |key,value|
     if value[:japanese] == emoticon 
        return key
